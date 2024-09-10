@@ -5,9 +5,9 @@
   $result = curl_exec($curlHandler);
   $data = json_decode($result, true);
   curl_close($curlHandler);
-  echo "<pre>";
-  var_dump($data);
-  echo "</pre>";
+  // echo "<pre>";
+  // var_dump($data);
+  // echo "</pre>";
 ?>
 
 <head>
